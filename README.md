@@ -64,3 +64,45 @@ project-root<br>
 └── tsconfig.json<br>
 
 </p>
+
+
+
+```
+project-root
+│
+├── src
+│   ├── controller
+│   │   ├── routerController.ts
+│   │   │   └── Contains logic for handling RESTful API routes.
+│   │   └── utility.ts
+│   │       └── Contains utility functions used by routerController.
+│   ├── database
+│   │   └── connectivity.ts
+│   │       └── Contains logic for connecting to the PostgreSQL database.
+│   ├── interfaces
+│   │   ├── inventory.ts
+│   │   │   └── Defines TypeScript interfaces for inventory items.
+│   │   └── inventoryItem.js
+│   │       └── Defines the schema/structure of an inventory item.
+│   ├── routers
+│   │   └── indexRouter.ts
+│   │       └── Handles CRUD operations on the inventory.
+│   └── index.js
+│       └── Acts as the landing page of the website.
+│
+├── test
+│   ├── controllers
+│   │   └── utility.ts
+│   │       └── Contains logic to test functions with static/mock data.
+│   └── mockdata
+│       ├── testData.ts
+│       │   └── Contains static mock data to test CheckDataType function.
+│       ├── testData2.ts
+│       │   └── Contains static/mock data to test checkValidData function.
+│       └── testData3.ts
+│           └── Contains static/mock data to test allFieldPresent function.
+│
+├── .env
+├── package.json
+└── tsconfig.json
+```
