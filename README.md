@@ -25,42 +25,42 @@ The project provides 5 RESTful API endpoints to perform CRUD operations on the i
 5. DELETE /items/id: Delete an existing item with the given id from the inventory.
 
 <p>
-project-root
-│
-├── src
-│   ├── controller
-│   │   ├── routerController.ts
-│   │   │   └── Contains logic for handling RESTful API routes.
-│   │   └── utility.ts
-│   │       └── Contains utility functions used by routerController.
-│   ├── database
-│   │   └── connectivity.ts
-│   │       └── Contains logic for connecting to the PostgreSQL database.
-│   ├── interfaces
-│   │   ├── inventory.ts
-│   │   │   └── Defines TypeScript interfaces for inventory items.
-│   │   └── inventoryItem.js
-│   │       └── Defines the schema/structure of an inventory item.
-│   ├── routers
-│   │   └── indexRouter.ts
-│   │       └── Handles CRUD operations on the inventory.
-│   └── index.js
-│       └── Acts as the landing page of the website.
-│
-├── test
-│   ├── controllers
-│   │   └── utility.ts
-│   │       └── Contains logic to test functions with static/mock data.
-│   └── mockdata
-│       ├── testData.ts
-│       │   └── Contains static mock data to test CheckDataType function.
-│       ├── testData2.ts
-│       │   └── Contains static/mock data to test checkValidData function.
-│       └── testData3.ts
-│           └── Contains static/mock data to test allFieldPresent function.
-│
-├── .env
-├── package.json
-└── tsconfig.json
+project-root<br>
+│<br>
+├── src<br>
+│   ├── controller<br>
+│   │   ├── routerController.ts<br>
+│   │   │   └── Contains logic for handling RESTful API routes.<br>
+│   │   └── utility.ts<br>
+│   │       └── Contains utility functions used by routerController.<br>
+│   ├── database<br>
+│   │   └── connectivity.ts<br>
+│   │       └── Contains logic for connecting to the PostgreSQL database.<br>
+│   ├── interfaces<br>
+│   │   ├── inventory.ts<br>
+│   │   │   └── Defines TypeScript interfaces for inventory items.<br>
+│   │   └── inventoryItem.js<br>
+│   │       └── Defines the schema/structure of an inventory item.<br>
+│   ├── routers<br>
+│   │   └── indexRouter.ts<br>
+│   │       └── Handles CRUD operations on the inventory.<br>
+│   └── index.js<br>
+│       └── Acts as the landing page of the website.<br>
+│<br>
+├── test<br>
+│   ├── controllers<br>
+│   │   └── utility.ts<br>
+│   │       └── Contains logic to test functions with static/mock data.<br>
+│   └── mockdata<br>
+│       ├── testData.ts<br>
+│       │   └── Contains static mock data to test CheckDataType function.<br>
+│       ├── testData2.ts<br>
+│       │   └── Contains static/mock data to test checkValidData function.<br>
+│       └── testData3.ts<br>
+│           └── Contains static/mock data to test allFieldPresent function.<br>
+│<br>
+├── .env<br>
+├── package.json<br>
+└── tsconfig.json<br>
 
 </p>
